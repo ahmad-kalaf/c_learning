@@ -1,11 +1,8 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 
 int main()
 {
-    // Ausgabe auf der Standardausgabe
-    printf("Hallo, ich bin Ahmad Kalaf\n");
-
     // Variablen
     int current_year = 2026;
     int birth_year = 2001;
@@ -64,5 +61,4 @@ int main()
     printf("Negativer Wert mit zwei Nachkommastellen: %+.2f\n", -20.0);
     printf("Implizit aufgerundet (zwei Nachkommastellen): %+.2f\n", 1.666);
     printf("Implizit abgerundet (zwei Nachkommastellen): %+.2f\n", 1.664);
-    return 0;
 }
